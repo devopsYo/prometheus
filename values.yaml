@@ -2647,7 +2647,7 @@ kube-prometheus-stack:
         podDisruptionBudget:
           #enabled: false
           minAvailable: 1
-          maxUnavailable: ""
+          #maxUnavailable: ""
           unhealthyPodEvictionPolicy: AlwaysAllow
   
         ## Number of old replicasets to retain ##
