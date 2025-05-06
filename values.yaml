@@ -2645,7 +2645,7 @@ kube-prometheus-stack:
   
         # Ref: https://kubernetes.io/docs/tasks/run-application/configure-pdb/
         podDisruptionBudget:
-          enabled: false
+          #enabled: false
           minAvailable: 1
           maxUnavailable: ""
           unhealthyPodEvictionPolicy: AlwaysAllow
